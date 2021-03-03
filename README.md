@@ -10,3 +10,4 @@ We will do following projects step by step in NodeMCU.
 2) Connect NodeMCU to WiFi.
 3) NodeMCU Webserver.
 4) NodeMCU WiFi Access Point.
+5) Controlling Devices From HTML Webpage using NodeMCU.
