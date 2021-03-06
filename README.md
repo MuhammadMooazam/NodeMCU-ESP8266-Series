@@ -11,3 +11,4 @@ We will do following projects step by step in NodeMCU.
 3) NodeMCU Webserver.
 4) NodeMCU WiFi Access Point.
 5) Controlling Devices From HTML Webpage using NodeMCU.
+6) Sending data from NodeMCU to ThingSpeak Cloud.
