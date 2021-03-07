@@ -29,10 +29,12 @@ void loop()
     if(request == "GET /ledon HTTP/1.1")
     {
       digitalWrite(led, HIGH);
+      Serial.println("LED is ON");
     }
     if(request == "GET /ledoff HTTP/1.1")
     {
       digitalWrite(led, LOW);
+      Serial.println("LED is OFF");
     }
   }
 }
