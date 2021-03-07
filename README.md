@@ -12,3 +12,6 @@ We will do following projects step by step in NodeMCU.
 4) NodeMCU WiFi Access Point.
 5) Controlling Devices From HTML Webpage using NodeMCU.
 6) Sending data from NodeMCU to ThingSpeak Cloud.
+7) HTTP GET Request using NodeMCU.
+8) COVID-19 Live Outbreak Data Tracker for Pakistan.
+9) Sending Tweet on Twitter.
