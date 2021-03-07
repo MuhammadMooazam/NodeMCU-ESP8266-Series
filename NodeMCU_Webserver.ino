@@ -9,7 +9,7 @@ void setup()
 {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  WiFi.begin("iot", "project1234");
+  WiFi.begin("Mooazam", "mooazam123");
   while(WiFi.status() != WL_CONNECTED)
   {
     delay(200);
@@ -34,10 +34,12 @@ void loop()
     if(request == "GET /ledon HTTP/1.1")
     {
       digitalWrite(led, HIGH);
+      Serial.println("LED is ON");
     }
     if(request == "GET /ledoff HTTP/1.1")
     {
       digitalWrite(led, LOW);
+      Serial.println("LED is OFF");
     }
   }
 }
