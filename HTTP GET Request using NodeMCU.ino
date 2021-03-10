@@ -30,16 +30,16 @@ void loop()
 {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
-  Serial.println("Temperature: " + (String) t);
-  Serial.println("Humidity: " + (String) h);
+  Serial.println("Temperature: " + String(t));
+  Serial.println("Humidity: " + String(h));
 
-  url1 = url1 + (String) t;
+  url1 = url1 + String(t);
   http.begin(host,httpPort,url1); 
   int httpCode = http.GET();
   Serial.println(httpCode);
   delay(2000);
 
-  url2 = url2 + (String) h;
+  url2 = url2 + String(h);
   http.begin(host,httpPort,url2); 
   httpCode = http.GET();
   Serial.println(httpCode);
