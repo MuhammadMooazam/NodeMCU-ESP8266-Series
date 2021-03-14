@@ -1,0 +1,27 @@
+1st Method (Long Method) :-
+1) Install git using git - scm.com
+2) github.com (Making Profile)
+3) Making repo in github.com
+4) git init (for making local folder into repo)
+5) git status (for checking status)
+6) git add -A (for making files trackable)
+7) git config --global user.name "Your Name"
+8) git config --global user.email "Your Email"
+9) git commit -m "The work you did eg: Commit Complete"
+10) git remote add origin <LINK of repository>
+11) git push -u origin master
+12) gh-pages on Branch-Master on repository (for hosting)
+
+2nd Method (Short Method) :-
+1) git clone <LINK of repository>
+    Automatically a folder will be created.
+    Open gith bash in the folder.
+2) git status
+3) git add -A
+4) git commit -m "The work you did eg: Commit Complete"
+5) git push -u origin master
+6) gh-pages on Branch-Master on repository (for hosting)
+
+3rd Method (Very Short Method) :-
+1) Click on upload an existing file on github repository.
+2) gh-pages on Branch-Master on repository (for hosting)
