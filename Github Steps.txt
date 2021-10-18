@@ -1,5 +1,5 @@
 1st Method (Long Method) :-
-1) Install git using git - scm.com
+1) Install git using https://git-scm.com/
 2) github.com (Making Profile)
 3) Making repo in github.com
 4) git init (for making local folder into repo)
