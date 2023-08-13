@@ -6,6 +6,7 @@ int httpPort = 80;
 String url = "/apps/thingtweet/1/statuses/update";
 
 HTTPClient http; 
+WiFiClient client;
 
 void setup() 
 {
@@ -19,7 +20,7 @@ void setup()
   Serial.println();
   Serial.println("NodeMCU is connected!");
   Serial.println(WiFi.localIP());
-  http.begin(host,httpPort,url); 
+  http.begin(client,host,httpPort,url); 
   String RequestBody = "api_key=DYC0F0ZSCY854UHN&status=I just posted this from my NodeMCU!";
   int httpCode = http.POST(RequestBody);
   Serial.println(httpCode);
