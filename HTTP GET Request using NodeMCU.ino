@@ -10,6 +10,7 @@ String url1 = "/update?api_key=MPPEO58HRZWRRUG9&field1=";
 String url2 = "/update?api_key=MPPEO58HRZWRRUG9&field2=";
 
 HTTPClient http; 
+WiFiClient client;
 
 void setup() 
 {
@@ -34,13 +35,13 @@ void loop()
   Serial.println("Humidity: " + String(h));
 
   url1 = url1 + String(t);
-  http.begin(host,httpPort,url1); 
+  http.begin(client,host,httpPort,url1); 
   int httpCode = http.GET();
   Serial.println(httpCode);
   delay(2000);
 
   url2 = url2 + String(h);
-  http.begin(host,httpPort,url2); 
+  http.begin(client,host,httpPort,url2); 
   httpCode = http.GET();
   Serial.println(httpCode);
   delay(2000);
