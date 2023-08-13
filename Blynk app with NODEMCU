@@ -9,8 +9,8 @@
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
-char ssid[] = "Dreamnet (( Mooazam ))";
-char pass[] = "Arham123";
+char ssid[] = "Mooazam";
+char pass[] = "mooazam123";
 
 void setup() {
   Serial.begin(9600);
