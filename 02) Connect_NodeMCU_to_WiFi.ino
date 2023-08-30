@@ -11,7 +11,6 @@ void setup() {
   Serial.println();
   Serial.println("NodeMCU is Connected!");
   Serial.println(WiFi.localIP());
-  
 }
 
 void loop() {
