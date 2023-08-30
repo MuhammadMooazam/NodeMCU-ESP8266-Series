@@ -7,7 +7,6 @@ WiFiServer server(80);
 
 void setup() 
 {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   WiFi.softAP("NodeMCU", "123456789");
   Serial.println();
@@ -19,7 +18,6 @@ void setup()
 
 void loop() 
 {
-  // put your main code here, to run repeatedly:
   client = server.available();  //Gets a client that is connected to the server and has data available for reading.    
   if (client == 1)
   {  
