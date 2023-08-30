@@ -1,4 +1,4 @@
-1st Method (Long Method) :-
+*) 1st Method (Long Method) :-
 1) Install git using https://git-scm.com/
 2) github.com (Making Profile)
 3) Making repo in github.com
@@ -12,7 +12,7 @@
 11) git push -u origin master
 12) gh-pages on Branch-Master on repository (for hosting)
 
-2nd Method (Short Method) :-
+*) 2nd Method (Short Method) :-
 1) git clone <LINK of repository>
     Automatically a folder will be created.
     Open gith bash in the folder.
@@ -22,6 +22,6 @@
 5) git push -u origin master
 6) gh-pages on Branch-Master on repository (for hosting)
 
-3rd Method (Very Short Method) :-
+*) 3rd Method (Very Short Method) :-
 1) Click on upload an existing file on github repository.
 2) gh-pages on Branch-Master on repository (for hosting)
