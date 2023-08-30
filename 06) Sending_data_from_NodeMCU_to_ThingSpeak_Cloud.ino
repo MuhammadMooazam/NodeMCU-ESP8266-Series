@@ -10,7 +10,6 @@ long myChannelNumber = 1297983;
 const char myWriteAPIKey[] = "MPPEO58HRZWRRUG9";
 
 void setup() {
-  // put your setup code here, to run once:
   Serial.begin(9600);
   WiFi.begin("Mooazam", "mooazam123");
   while(WiFi.status() != WL_CONNECTED)
@@ -26,7 +25,6 @@ void setup() {
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   float h = dht.readHumidity();
   float t = dht.readTemperature();
   Serial.println("Temperature: " + (String) t);
