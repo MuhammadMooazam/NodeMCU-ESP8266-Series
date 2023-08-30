@@ -12,6 +12,7 @@ We will do the following projects step by step in NodeMCU.
 4) NodeMCU WiFi Access Point
 5) Controlling Devices From HTML Webpage using NodeMCU
 6) Sending data from NodeMCU to ThingSpeak Cloud
-7) HTTP GET Request using NodeMCU
-8) Sending Tweet on Twitter using NodeMCU
-9) NodeMCU Home Automation using Blynk
+7) HTTP GET Request using NodeMCU using DHT11
+8) HTTP POST Request using NodeMCU using Twitter
+9) NodeMCU LED Control using Blynk 2.0 Cloud Application
+10) NodeMCU DHT11 Sensor data transmission using Blynk 2.0 Cloud Application
