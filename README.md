@@ -95,7 +95,7 @@ This repository is open-source and operates under the [MIT License](LICENSE).
 
 Ready to immerse yourself in the world of NodeMCU? Don't wait! Start exploring these captivating projects now!
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Explore%20Projects-blue?style=for-the-badge&logo=github)](https://github.com/MuhammadMooazam/NodeMCU-ESP8266-Series)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Explore%20Projects-blue?style=for-the-badge&logo=github)](https://github.com/MuhammadMooazam/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mooazam/)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?style=for-the-badge&logo=twitter)](https://twitter.com/SMMooazam)
 
